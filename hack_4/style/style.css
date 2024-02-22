@@ -1,0 +1,176 @@
+/*  ----------------------------
+FONT: RUDA
+
+TEXT: end of season
+TEXT: sale -COLOR: #B88940
+TEXT: 50 % off  
+
+----------------------------
+FONT: Catamaran
+
+TEXT: Lorem ipsum dolor sit amet
+TEXT: Lorem $0.00
+
+----------------------------
+FONT: Open sans Extra Bold
+
+TEXT: your fashion -COLOR: #B88940
+
+----------------------------
+FONT: Catamaran
+
+TEXT: Lorem ipsum dolor sit amet
+
+----------------------------
+FRANJAS AMARILLAS  -COLOR: #FFBD59c*/
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+.contenedor-1 {
+    font-family: "Ruda", sans-serif;
+    font-weight: 800;
+
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+/* raya negra*/
+.child1:nth-child(1) {
+    position: absolute;
+    top: 30px;
+    border-radius: 400px;
+    width: 46px;
+    height: 4px;
+    background-color: black;
+}
+/* end of season*/
+.child1:nth-child(2) {
+    font-weight: 800;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    top: 50px;
+    position: absolute;
+    font-size: 18x;
+}
+/* sale*/
+.child1:nth-child(3) {
+    letter-spacing: 7px;
+    position: absolute;
+    top: 59px;
+    color: #B88940;
+    font-size: 70px;  
+}
+/* 50% OFF*/
+.child1:nth-child(4) {
+    position: absolute;
+    top: 140px;
+    font-weight: 900;
+    font-size: 25px;
+}
+/* LOREM */
+.child1:nth-child(5) {
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    font-family: "Catamaran", sans-serif;
+    position: absolute;
+    top: 180px;
+    font-size: 18px;
+    font-weight: 350;
+    text-transform: none;
+}
+/*contenedor de rayas amarilla */
+.contenedor-2 {
+    top: 280px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+/*rayas amarrillas*/
+.rayas_amarrillas:nth-child(1){
+    margin-top: 25px;
+    width: 95%;
+    height: 20px;
+    background-color:#FFBD59;
+}
+.rayas_amarrillas:nth-child(2){
+    margin-top: 15px;
+    width: 95%;
+    height: 20px;
+    background-color:#FFBD59;
+}
+.rayas_amarrillas:nth-child(3){
+    margin-top: 15px;
+    width: 95%;
+    height: 20px;
+    background-color:#FFBD59;
+}
+.rayas_amarrillas:nth-child(4){
+    margin-top: 15px;
+    width: 95%;
+    height: 20px;
+    background-color:#FFBD59;
+}
+/*contenedor de imagenes */
+.contenedor-3{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 280px;
+    font-family: "Catamaran", sans-serif;
+    font-size: 16px;
+    left: 50%;
+    right: 50%;
+}
+.img1 {
+    text-align: center;
+    margin-right: 10px;
+
+}
+.img2 {
+    text-align: center;
+    margin-right: 10px;
+}
+.img3 {
+    text-align: center;
+    margin-right: 10px;
+}
+/*contenedor de texto final */
+.container-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    font-family: "Catamaran", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+
+    position: relative;
+    top: 480px;
+}
+.footer:nth-child(1) {
+    color: #B88940;
+    font-size: 23px;
+    letter-spacing: 2px;
+    
+} 
+.footer:nth-child(2) {
+    top: 26px;
+    position: absolute;
+    font-weight: 650;
+} 
