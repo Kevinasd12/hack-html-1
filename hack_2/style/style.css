@@ -1,0 +1,52 @@
+/*BLUE: #93B5C9
+WINE: #AB2849
+*/
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+header {
+float: inline-start;
+background-color: #93B5C9;
+height: 90px;
+width: 100%;
+
+}
+nav {
+    float: inline-end;
+    background-color: #AB2849;
+    height: 170px;
+    width: 100%;
+
+}
+
+section {
+    float: inline-start;
+    width: 100%;
+    height: 100%;
+}
+
+aside{
+float: right;
+ width: 30%;
+ height: 300x;
+margin-top: 2%;
+}
+
+article {
+    margin-top: 1%;
+    float: left;
+    background-color: #AB2849;
+    width: 70%;
+    height: 86px;
+}
+footer{
+    margin: 1%;
+    float: inline-start;
+    background-color: #AB2849;
+    height: 80px;
+    width: 98%;
+    
+
+}
