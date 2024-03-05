@@ -1,7 +1,6 @@
-Si se pudo! (hard the responsive desing)
 
-Hack-html-1 KevinASD12 
+Hack-html-1 KevinASD12 🔥🔥🔥
 
-Se realizo hasta el hack 5 por cuestiones de tiempo. 
+Se realizaron los 6 hacks
 
 Feature -> Develop -> Main
