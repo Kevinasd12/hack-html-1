@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+.container-1 {
+    position: relative;
+    display: flex;
+    padding-left: 10%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 30rem;
+    width: auto;
+    background: url(/img/2.png)  no-repeat center center ;
+    background-size: cover;
+    gap: 5px;
+}
+
+#borcelle {
+    margin-top : 5%;
+    width: max-content;
+    background-color: black;
+    color: white;
+    border-radius: 100rem 100rem;
+    padding: 0.45rem 1.5rem;
+}
+
+#Enjoy {
+   margin-top: 2%;
+}
+p b {
+
+    font-size: 3.0rem;
+}
+
+#text-1 {
+    font-size: 1.45rem;
+    width: 29rem
+}
+
+#descuento{
+    font-size: 2.2rem;
+    left: 70%;
+    top: 25%;
+    padding-top: 2.5rem;
+    text-align: center;
+    border-radius: 80%;
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+    background-color: #00BF63;
+    color: white;
+}
+
+/* cards de silla */
+
+.container-sillas-1 {
+    margin-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    height: auto;
+    width: auto;
+}
+.sillas {
+    gap: 0.2rem;
+    display: flex;
+    flex-direction: column;
+}
+.img1 {
+    width: 20rem;
+    height: 22rem;
+    background: url(/img/1.png) no-repeat center center;
+    background-size: contain;
+}
+.img2 {
+    width: 20rem;
+    height: 22rem;
+    background: url(/img/3.png) no-repeat center center;
+    background-size: contain;
+}
+.img3 {
+    width: 20rem;
+    height: 22rem;
+    background: url(/img/4.png) no-repeat center center;
+    background-size: contain;
+}
+.tachado {
+    text-decoration: line-through red 2px; 
+    margin-right: 1.4rem;
+}
+.container-sillas-2 {
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    height: auto;
+    width: auto;
+}
+.img4 {
+    width: 20rem;
+    height: 22rem;
+    background: url(/img/5.png) no-repeat center center;
+    background-size: contain;
+}
+.img5 {
+    width: 20rem;
+    height: 22rem;
+    background: url(/img/6.png) no-repeat center center;
+    background-size: contain;
+}
+.img6 {
+    width: 20rem;
+    height: 22rem;
+    background: url(/img/16.png) no-repeat center center;
+    background-size: contain;
+}
+
+/*footer */
+
+.contenedor-footer {
+    margin-left: 5%;
+    margin-right: 5%;
+    align-items: center;
+    margin-top: 5rem;
+    display: flex;
+    background-color: black;
+    height: 7rem;
+    width: auto;
+}
+.shop{
+    margin-left: 8%;
+    height: max-content;
+    width: max-content;
+    background-color: #00BF63;
+    color: white;
+    border-radius: 100rem 100rem;
+    padding: 0.45rem 1.5rem;
+}
+
+
+
+
+
+/* media queris */
+@media screen and (max-width:686px) {
+    #descuento{
+        font-size: 2.0rem;
+        left: 70%;
+        top: 70%;
+        padding-top: 1.5rem;
+        width: 8rem;
+        height: 8rem;
+    }
+    
+}
+
+
+@media screen and (max-width:549px) {
+    #descuento{
+        font-size: 1.0rem;
+        left: 80%;
+        top: 75%;
+        padding-top: 1.20rem;
+        width: 5rem;
+        height: 5rem;
+    }
+    #text-1 {
+        margin-top: 10%;
+        height: max-content;
+        width: 70%;
+        font-size: 1.0rem;
+    }
+}
+@media screen and (max-width:429px) {
+    #Enjoy {
+        margin-top: 10%;
+     }
+    p b {
+        font-size: 2.5rem;
+    }
+    #text-1 {
+        margin-top: 10%;
+        height: max-content;
+        width: 70%;
+        font-size: 1.0rem;
+    }
+
+    #descuento{
+        font-size: 1.0rem;
+        left: 70%;
+        top: 80%;
+        padding-top: 1.20rem;
+        width: 5rem;
+        height: 5rem;
+    }
+    
+}
+
+
+@media screen and (max-width:375px) {
+    #descuento{
+        font-size: 1.0rem;
+        left: 75%;
+        top: 80%;
+        padding-top: 1.20rem;
+        width: 5rem;
+        height: 5rem;
+    }
+}
+@media screen and (max-width:294px) {
+    #Enjoy {
+        margin-top: 10%;
+     }
+    p b {
+        font-size: 2.0rem;
+    }
+    #text-1 {
+        margin-top: 1%;
+        height: max-content;
+        width: 80%;
+        font-size: 1.0rem;
+    }
+
+}
+@media screen and (max-width:1123px) {
+    .container-sillas-2 {
+        margin-top: 1%;
+        gap: 1rem;
+    }
+    .container-sillas-1 {
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .contenedor-footer {
+        align-items: center;
+        justify-content: center;
+    }
+    .shop{
+        margin-left: 0%;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .Borcelle-chair{
+        align-self: center;
+    }
+    .precio {
+        align-self: center;
+    }
+}
